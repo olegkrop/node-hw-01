@@ -74,7 +74,6 @@ invokeAction(argv);
 // program.parse();
 
 // const options = program.opts();
-// console.log(options);
 // invokeAction(options);
 
 // --------------------End (using commander)--------------------
