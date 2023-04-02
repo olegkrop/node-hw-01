@@ -21,7 +21,9 @@ const getContactById = async (id) => {
     const contacts = await listContacts();
     const result = contacts.find((item) => item.id === id);
     return result || null;
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const addContact = async (data) => {
